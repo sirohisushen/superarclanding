@@ -14,7 +14,7 @@ export function Header() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="flex items-center gap-3">
-              <Image src="/logo.png" alt="SuperArc Mail" width={40} height={40} className="w-10 h-10" />
+              <Image src="/logo.png" alt="SuperArc Mail" width={40} height={40} className="w-10 h-10 rounded-full" />
               <span className="font-sans text-lg font-semibold tracking-tight">SuperArc</span>
             </div>
 

@@ -1,3 +1,4 @@
+import Image from "next/image"
 export function Footer() {
   return (
     <footer className="border-t border-border py-12 px-4 sm:px-6 lg:px-8 bg-secondary/30">

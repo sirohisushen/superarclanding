@@ -6,7 +6,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="flex h-6 w-6 items-center justify-center rounded-lg bg-foreground">
-                <Image src="/logo.png" alt="SuperArc Mail" width={40} height={40} className="w-10 h-10 rounded-full" />
+                <Image src="/logo.png" alt="SuperArc Mail" width={40} height={40} className="w-10 h-10 rounded-full object-cover" />
               </div>
               <span className="font-sans font-semibold">SuperArc</span>
             </div>

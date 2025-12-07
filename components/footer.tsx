@@ -7,7 +7,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="flex h-6 w-6 items-center justify-center rounded-lg bg-foreground">
-                <Image src="/logo.png" alt="SuperArc Mail" width={40} height={40} className="w-10 h-10 rounded-full object-cover" />
+                <Image src="/logo.png" alt="SuperArc Mail" width={40} height={40} className="rounded-full" />
               </div>
               <span className="font-sans font-semibold">SuperArc</span>
             </div>
@@ -57,17 +57,17 @@ export function Footer() {
             <h4 className="font-semibold mb-4 text-sm">Social</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <a href="https://x.com/getsuperarc" className="hover:text-foreground transition-colors">
                   Twitter
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <a href="https://github.com/sirohisushen/superarc-landing" className="hover:text-foreground transition-colors">
                   GitHub
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <a href="mailto:superarcmail@gmail.com" className="hover:text-foreground transition-colors">
                   Email
                 </a>
               </li>
